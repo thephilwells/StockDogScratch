@@ -1,0 +1,51 @@
+<table class="table">
+    <thead>
+        <tr>
+            <td>Symbol</td>
+            <td>Shares Owned</td>
+            <td>Last Price</td>
+            <td>Price Change<br />
+                <span class="teeny"> (Switch to
+                <!-- [1] Toggle showPercent scope variable on click -->
+                    <button ng-show="showPercent === true" ng-click="(showPercent === false) || (showPercent = !showPercent)">
+                      $
+                    </button>
+                    <button ng-show="showPercent === false" ng-click="(showPercent === true) || (showPercent = !showPercent)">
+                      %
+                    </button>
+                )
+                </span>
+            </td>
+            <td>Market Value</td>
+            <td>Day Change</td>
+        </tr>
+    </thead>
+    <!-- [2] Only show footer if more than one stock exists -->
+    <tfoot ng-show="watchlist.stocks.length > 1">
+        <tr>
+            <td>Totals</td>
+            <td>{{watchlist.shares}}</td>
+            <td></td>
+            <td></td>
+            <td stk-sign-fade="{{watchlist.marketValue}}">{{watchlist.marketValue | currency}}</td>
+            <td stk-sign-color="{{watchlist.dayChange}}">{{watchlist.dayChange | currency}}</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <!-- [3] Use stk-stock-row to create a row for each stock -->
+        <tr stk-stock-row ng-repeat="stock in watchlist.stocks track by $index" stock="stock" is-last="$last">
+            <td>{{stock.company.symbol}}</td>
+            <td contenteditable type="number" ng-model="stock.shares"></td>
+            <td stk-sign-fade="{{stock.lastPrice}}">{{stock.lastPrice | currency:"$":2}}</td>
+            <td>
+                <span ng-hide="showPercent" stk-sign-color="{{stock.change}}">{{stock.change | currency:"$":2}}</span>
+                <span ng-show="showPercent" stk-sign-color="{{stock.percentChange}}">{{stock.percentChange}}</span>
+            </td>
+            <td stk-sign-fade="{{stock.marketValue}}">{{stock.marketValue.toFixed(2) | currency:"$":2}}</td>
+            <td stk-sign-color="{{stock.dayChange}}">{{stock.dayChange.toFixed(2) | currency:"$":2}}</td>
+            <button type="button" class="close" ng-click="removeStock(stock)">&times;</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="small text-center">Click on Shares Owned cell to edit.</div>

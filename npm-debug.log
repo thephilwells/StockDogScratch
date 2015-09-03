@@ -1,0 +1,289 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from C:\StockDogScratch\package.json
+5 warn package.json stockdog@0.0.0 No description
+6 warn package.json stockdog@0.0.0 No repository field.
+7 warn package.json stockdog@0.0.0 No README data
+8 warn package.json stockdog@0.0.0 No license field.
+9 verbose install where, deps [ 'C:\\StockDogScratch',
+9 verbose install   [ 'grunt',
+9 verbose install     'grunt-autoprefixer',
+9 verbose install     'grunt-concurrent',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-connect',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-cssmin',
+9 verbose install     'grunt-contrib-htmlmin',
+9 verbose install     'grunt-contrib-imagemin',
+9 verbose install     'grunt-contrib-jshint',
+9 verbose install     'grunt-contrib-uglify',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-filerev',
+9 verbose install     'grunt-google-cdn',
+9 verbose install     'grunt-karma',
+9 verbose install     'grunt-newer',
+9 verbose install     'grunt-ng-annotate',
+9 verbose install     'grunt-svgmin',
+9 verbose install     'grunt-usemin',
+9 verbose install     'grunt-wiredep',
+9 verbose install     'jshint-stylish',
+9 verbose install     'karma-jasmine',
+9 verbose install     'karma-phantomjs-launcher',
+9 verbose install     'load-grunt-tasks',
+9 verbose install     'time-grunt' ] ]
+10 verbose install where, peers [ 'C:\\StockDogScratch', [] ]
+11 verbose installManyTop reading for lifecycle C:\StockDogScratch\package.json
+12 info preinstall stockdog@0.0.0
+13 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\generator-angular\package.json
+14 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\generator-karma\package.json
+15 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt\package.json
+16 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-autoprefixer\package.json
+17 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-concurrent\package.json
+18 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-clean\package.json
+19 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-concat\package.json
+20 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-connect\package.json
+21 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-copy\package.json
+22 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-cssmin\package.json
+23 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-htmlmin\package.json
+24 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-imagemin\package.json
+25 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-jshint\package.json
+26 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-uglify\package.json
+27 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-contrib-watch\package.json
+28 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-filerev\package.json
+29 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-google-cdn\package.json
+30 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-karma\package.json
+31 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-newer\package.json
+32 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-ng-annotate\package.json
+33 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-svgmin\package.json
+34 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-usemin\package.json
+35 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\grunt-wiredep\package.json
+36 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\imagemin\package.json
+37 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\imagemin-gifsicle\package.json
+38 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\imagemin-jpegtran\package.json
+39 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\imagemin-optipng\package.json
+40 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\imagemin-pngquant\package.json
+41 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\jasmine-core\package.json
+42 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\jshint-stylish\package.json
+43 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\karma\package.json
+44 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\karma-jasmine\package.json
+45 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\karma-phantomjs-launcher\package.json
+46 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\load-grunt-tasks\package.json
+47 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\phantomjs\package.json
+48 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\time-grunt\package.json
+49 verbose installManyTop reading scoped package data from C:\StockDogScratch\node_modules\yo\package.json
+50 info package.json generator-angular@0.9.8 No license field.
+51 info package.json grunt@0.4.5 No license field.
+52 info package.json grunt-contrib-connect@0.7.1 No license field.
+53 info package.json grunt-contrib-watch@0.6.1 No license field.
+54 info package.json generator-karma@1.0.0 license should be a valid SPDX license expression
+55 info package.json grunt-concurrent@0.5.0 No license field.
+56 info package.json grunt-contrib-clean@0.5.0 No license field.
+57 info package.json grunt-contrib-concat@0.4.0 No license field.
+58 info package.json grunt-contrib-copy@0.5.0 No license field.
+59 info package.json grunt-contrib-cssmin@0.9.0 No license field.
+60 info package.json grunt-contrib-htmlmin@0.3.0 No license field.
+61 info package.json grunt-contrib-imagemin@0.8.1 No license field.
+62 info package.json grunt-contrib-jshint@0.10.0 No license field.
+63 info package.json grunt-contrib-uglify@0.4.1 No license field.
+64 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+65 info package.json grunt-filerev@0.2.1 No license field.
+66 info package.json grunt-newer@0.7.0 No license field.
+67 info package.json grunt-svgmin@0.4.0 No license field.
+68 info package.json grunt-ng-annotate@0.3.2 No license field.
+69 info package.json grunt-wiredep@1.9.0 No license field.
+70 verbose readDependencies loading dependencies from C:\StockDogScratch\package.json
+71 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\generator-angular\package.json
+72 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\generator-karma\package.json
+73 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt\package.json
+74 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-autoprefixer\package.json
+75 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-concurrent\package.json
+76 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-clean\package.json
+77 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-concat\package.json
+78 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-connect\package.json
+79 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-copy\package.json
+80 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-cssmin\package.json
+81 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-htmlmin\package.json
+82 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-imagemin\package.json
+83 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-jshint\package.json
+84 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-uglify\package.json
+85 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-contrib-watch\package.json
+86 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-filerev\package.json
+87 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-google-cdn\package.json
+88 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-karma\package.json
+89 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-newer\package.json
+90 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-ng-annotate\package.json
+91 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-svgmin\package.json
+92 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-usemin\package.json
+93 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\grunt-wiredep\package.json
+94 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\imagemin\package.json
+95 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\imagemin-gifsicle\package.json
+96 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\imagemin-jpegtran\package.json
+97 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\imagemin-optipng\package.json
+98 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\imagemin-pngquant\package.json
+99 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\jasmine-core\package.json
+100 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\jshint-stylish\package.json
+101 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\karma\package.json
+102 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\karma-jasmine\package.json
+103 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\karma-phantomjs-launcher\package.json
+104 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\load-grunt-tasks\package.json
+105 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\phantomjs\package.json
+106 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\time-grunt\package.json
+107 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\yo\package.json
+108 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\imagemin\package.json
+109 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\imagemin.cmd\package.json
+110 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\karma\package.json
+111 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\karma.cmd\package.json
+112 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\phantomjs\package.json
+113 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\phantomjs.cmd\package.json
+114 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\yo\package.json
+115 verbose targetResolver reading package data from C:\StockDogScratch\node_modules\.bin\yo.cmd\package.json
+116 verbose already installed skipping jshint-stylish@^0.2.0 C:\StockDogScratch
+117 verbose already installed skipping karma-jasmine@* C:\StockDogScratch
+118 verbose already installed skipping karma-phantomjs-launcher@* C:\StockDogScratch
+119 verbose already installed skipping load-grunt-tasks@^0.4.0 C:\StockDogScratch
+120 verbose already installed skipping time-grunt@^0.3.1 C:\StockDogScratch
+121 silly cache add args [ 'grunt@^0.7.1', null ]
+122 verbose cache add spec grunt@^0.7.1
+123 silly cache add parsed spec { raw: 'grunt@^0.7.1',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'grunt',
+123 silly cache add   rawSpec: '^0.7.1',
+123 silly cache add   spec: '>=0.7.1 <0.8.0',
+123 silly cache add   type: 'range' }
+124 silly addNamed grunt@>=0.7.1 <0.8.0
+125 verbose addNamed ">=0.7.1 <0.8.0" is a valid semver range for grunt
+126 silly addNameRange { name: 'grunt', range: '>=0.7.1 <0.8.0', hasData: false }
+127 silly mapToRegistry name grunt
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/grunt
+131 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+132 verbose already installed skipping grunt-autoprefixer@^0.7.3 C:\StockDogScratch
+133 verbose already installed skipping grunt-concurrent@^0.5.0 C:\StockDogScratch
+134 verbose already installed skipping grunt-contrib-clean@^0.5.0 C:\StockDogScratch
+135 verbose already installed skipping grunt-contrib-concat@^0.4.0 C:\StockDogScratch
+136 verbose already installed skipping grunt-contrib-connect@^0.7.1 C:\StockDogScratch
+137 verbose already installed skipping grunt-contrib-copy@^0.5.0 C:\StockDogScratch
+138 verbose already installed skipping grunt-contrib-cssmin@^0.9.0 C:\StockDogScratch
+139 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 C:\StockDogScratch
+140 verbose already installed skipping grunt-contrib-imagemin@^0.8.1 C:\StockDogScratch
+141 verbose already installed skipping grunt-contrib-jshint@^0.10.0 C:\StockDogScratch
+142 verbose request uri https://registry.npmjs.org/grunt
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 9:21:28 AM
+145 verbose request id b3574ca4d986530b
+146 verbose etag "6R44SL2GXB6U743AZAJLUHBNB"
+147 http request GET https://registry.npmjs.org/grunt
+148 verbose already installed skipping grunt-contrib-uglify@^0.4.0 C:\StockDogScratch
+149 verbose already installed skipping grunt-contrib-watch@^0.6.1 C:\StockDogScratch
+150 verbose already installed skipping grunt-filerev@^0.2.1 C:\StockDogScratch
+151 verbose already installed skipping grunt-google-cdn@^0.4.0 C:\StockDogScratch
+152 verbose already installed skipping grunt-karma@* C:\StockDogScratch
+153 verbose already installed skipping grunt-newer@^0.7.0 C:\StockDogScratch
+154 verbose already installed skipping grunt-ng-annotate@^0.3.0 C:\StockDogScratch
+155 verbose already installed skipping grunt-svgmin@^0.4.0 C:\StockDogScratch
+156 verbose already installed skipping grunt-usemin@^2.1.1 C:\StockDogScratch
+157 verbose already installed skipping grunt-wiredep@^1.7.0 C:\StockDogScratch
+158 http 304 https://registry.npmjs.org/grunt
+159 silly get cb [ 304,
+159 silly get   { date: 'Thu, 03 Sep 2015 13:21:28 GMT',
+159 silly get     via: '1.1 varnish',
+159 silly get     'cache-control': 'max-age=60',
+159 silly get     etag: '"6R44SL2GXB6U743AZAJLUHBNB"',
+159 silly get     age: '42',
+159 silly get     connection: 'keep-alive',
+159 silly get     'x-served-by': 'cache-iad2124-IAD',
+159 silly get     'x-cache': 'HIT',
+159 silly get     'x-cache-hits': '1',
+159 silly get     'x-timer': 'S1441286488.379536,VS0,VE0',
+159 silly get     vary: 'Accept' } ]
+160 verbose etag https://registry.npmjs.org/grunt from cache
+161 verbose get saving grunt to C:\Users\PWells\AppData\Roaming\npm-cache\registry.npmjs.org\grunt\.cache.json
+162 silly addNameRange number 2 { name: 'grunt', range: '>=0.7.1 <0.8.0', hasData: true }
+163 silly addNameRange versions [ 'grunt',
+163 silly addNameRange   [ '0.1.0',
+163 silly addNameRange     '0.1.1',
+163 silly addNameRange     '0.1.2',
+163 silly addNameRange     '0.2.0',
+163 silly addNameRange     '0.2.1',
+163 silly addNameRange     '0.2.2',
+163 silly addNameRange     '0.2.3',
+163 silly addNameRange     '0.2.4',
+163 silly addNameRange     '0.2.5',
+163 silly addNameRange     '0.2.6',
+163 silly addNameRange     '0.2.7',
+163 silly addNameRange     '0.2.8',
+163 silly addNameRange     '0.2.9',
+163 silly addNameRange     '0.2.10',
+163 silly addNameRange     '0.2.11',
+163 silly addNameRange     '0.2.12',
+163 silly addNameRange     '0.2.13',
+163 silly addNameRange     '0.2.14',
+163 silly addNameRange     '0.2.15',
+163 silly addNameRange     '0.3.0',
+163 silly addNameRange     '0.3.1',
+163 silly addNameRange     '0.3.2',
+163 silly addNameRange     '0.3.3',
+163 silly addNameRange     '0.3.4',
+163 silly addNameRange     '0.3.5',
+163 silly addNameRange     '0.3.6',
+163 silly addNameRange     '0.3.7',
+163 silly addNameRange     '0.3.8',
+163 silly addNameRange     '0.3.9',
+163 silly addNameRange     '0.3.10',
+163 silly addNameRange     '0.3.11',
+163 silly addNameRange     '0.3.12',
+163 silly addNameRange     '0.3.13',
+163 silly addNameRange     '0.3.14',
+163 silly addNameRange     '0.3.15',
+163 silly addNameRange     '0.3.16',
+163 silly addNameRange     '0.3.17',
+163 silly addNameRange     '0.4.0',
+163 silly addNameRange     '0.4.1',
+163 silly addNameRange     '0.4.2',
+163 silly addNameRange     '0.4.3',
+163 silly addNameRange     '0.4.4',
+163 silly addNameRange     '0.4.5',
+163 silly addNameRange     '0.3.13-a',
+163 silly addNameRange     '0.4.0-a',
+163 silly addNameRange     '0.4.0-rc1',
+163 silly addNameRange     '0.4.0-rc2',
+163 silly addNameRange     '0.4.0-rc3',
+163 silly addNameRange     '0.4.0-rc4',
+163 silly addNameRange     '0.4.0-rc5',
+163 silly addNameRange     '0.4.0-rc6',
+163 silly addNameRange     '0.4.0-rc7',
+163 silly addNameRange     '0.4.0-rc8' ] ]
+164 verbose stack Error: No compatible version found: grunt@'>=0.7.1 <0.8.0'
+164 verbose stack Valid install targets:
+164 verbose stack ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.2.10","0.2.11","0.2.12","0.2.13","0.2.14","0.2.15","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.5","0.3.6","0.3.7","0.3.8","0.3.9","0.3.10","0.3.11","0.3.12","0.3.13","0.3.14","0.3.15","0.3.16","0.3.17","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.4.5","0.3.13-a","0.4.0-a","0.4.0-rc1","0.4.0-rc2","0.4.0-rc3","0.4.0-rc4","0.4.0-rc5","0.4.0-rc6","0.4.0-rc7","0.4.0-rc8"]
+164 verbose stack
+164 verbose stack     at installTargetsError (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-named.js:274:12)
+164 verbose stack     at next (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-named.js:253:17)
+164 verbose stack     at setData (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-named.js:230:5)
+164 verbose stack     at RES (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+164 verbose stack     at f (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+164 verbose stack     at fixName (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-named.js:29:5)
+164 verbose stack     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:173:7)
+164 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+165 verbose cwd C:\StockDogScratch
+166 error Windows_NT 6.1.7601
+167 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+168 error node v0.12.7
+169 error npm  v2.11.3
+170 error code ETARGET
+171 error notarget No compatible version found: grunt@'>=0.7.1 <0.8.0'
+171 error notarget Valid install targets:
+171 error notarget ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.2.10","0.2.11","0.2.12","0.2.13","0.2.14","0.2.15","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.5","0.3.6","0.3.7","0.3.8","0.3.9","0.3.10","0.3.11","0.3.12","0.3.13","0.3.14","0.3.15","0.3.16","0.3.17","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.4.5","0.3.13-a","0.4.0-a","0.4.0-rc1","0.4.0-rc2","0.4.0-rc3","0.4.0-rc4","0.4.0-rc5","0.4.0-rc6","0.4.0-rc7","0.4.0-rc8"]
+171 error notarget
+171 error notarget This is most likely not a problem with npm itself.
+171 error notarget In most cases you or one of your dependencies are requesting
+171 error notarget a package version that doesn't exist.
+171 error notarget
+171 error notarget It was specified as a dependency of 'stockdog'
+172 verbose exit [ 1, true ]
